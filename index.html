@@ -50,12 +50,13 @@
         color: #313131;
     }
     .header {
-        background-color: lightgray;
+        background-color:lightgrey;
         height: 80px;
         position: fixed;
         width: 100%;
         top: 0;
         left: 0;
+        z-index: 1;
     }
     .nav {
         background-color: white;
@@ -95,6 +96,7 @@
     }
     .section_1{
         height: 100vh;
+        background-color: lightgrey;
     }
     .content_wrapper{
         padding-top: 80px;
@@ -110,28 +112,15 @@
     .image-intro{
         display: flex;
         justify-content: center;
-
     }
     .content-intro{
         position: absolute;
         top: 30%;
     }    
-    .div-section-2{
-        max-width: 1000px;
-        color: white;
-    }
-    .section-2{
-        background-color: #313131;
-        padding-top: 80px;
-        max-width: 1000px;
-        margin: auto;
-        padding-left: 50px;
-        height: 700px;
-    }
     .advantages{
-        font-weight: bold;
         display: flex;
         justify-content: center;
+        margin: auto;
     }
     .parrafos-section-2{
         display: flex;
@@ -179,12 +168,9 @@
         background-color: white;
         width: 250px;
         margin: 10px;
-
-
     }
     .parrafo-container{
         color: #313131;
-
     }
     .item-2{
         background-color: white;
@@ -224,7 +210,11 @@
         justify-content: center;
         font-size: 500%;
         color: #F15A29;
-
+    }
+    .div-section-2{
+        background-color: lightgrey;
+    }
+    .section-2{
     }
 </style>
 
@@ -260,21 +250,21 @@
     </div>
     </div>
     </section>
-    <section class="section-2">
-    <div class="div-section-2">
+<section class="section-2">
+<div class="div-section-2">
 <div class="advantages">
-            <h2>Advantages</h2>
+<h2>Advantages</h2>
 </div>
 </br>
 <div class="parrafos-section-2">
-    <p>Focus on a well developed code and a keen eye on an
-        appealing look based on a good UX.
+          <p>Focus on a well developed code and a keen eye on an
+                appealing look based on a good UX.
 </br>
 </br>
-        This will eventually avoid extra valuable time of your side,
-        telling developers how thing should look and fixing issues with the code </p>
+                This will eventually avoid extra valuable time of your side,
+                telling developers how thing should look and fixing issues with the code </p>
 </div>
-
+</div>
 </section>
 <section class="section-3">
 <div class="div-section-3">
